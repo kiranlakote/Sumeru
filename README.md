@@ -1,29 +1,35 @@
-## Steps:
-1. Make a clone of this git repo using: 
+## Make a clone of this git repo using: 
    ```
-   git clone
+    git clone https://github.com/kiranlakote/Sumeru.git
    ```
+   
+## Regarding the Curreny converter:
+You will find the different folder for that as currenct converter.
 
-2. Make a copy of .env.example file and rename it to .env
 
-3. Configure the Database in the .env file.
+## Regarding the Course:
+Completed that task using the Laravel Framework.
 
-4. Run the command 
+1. Make a copy of .env.example file and rename it to .env
+
+2. Configure the Database in the .env file.
+
+3. Run the command 
    ```
    composer update
    ```
 
-5. Generate the Key using 
+4. Generate the Key using 
    ```
    php artisan key:generate
    ```
 
-6. Migrate the table to DB using 
+5. Migrate the table to DB using 
    ```
    php artisan migrate
    ```
 
-7. Run the server using 
+6. Run the server using 
    ```
    php artisan server
    ```
